@@ -1,7 +1,25 @@
 aid: salido
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salido.png
 name: Salido
-description: Salido is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SALIDO is a hospitality technology company providing a unified restaurant
+  point-of-sale (POS) and payment processing platform for full-service, casual, upscale,
+  and fine-dining operators. The system combines front-of-house and back-of-house
+  operations, table and floor-plan management, menu and inventory tools, real-time
+  analytics and multi-location reporting, and a mobile manager app, with an in-house
+  payment processor (EPX). Originally a 500 Global / 500 Startups portfolio company,
+  SALIDO was acquired by First Data and is now backed by North American Bancard (NAB).
+  No public developer API or documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/salido/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Point of Sale
+- Restaurant
+- Hospitality
+- Payments
+- Payment Processing
+- Food and Beverage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://salido.com
+- type: Blog
+  url: https://www.salido.com/blog
+- type: Support
+  url: https://www.salido.com/support
+- type: Login
+  url: https://bridge.salido.com/sign-in
+- type: TermsOfService
+  url: https://www.salido.com/terms
+- type: PrivacyPolicy
+  url: https://www.salido.com/privacy-policy
+- type: DomainSecurity
+  url: security/salido-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
