@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "salido",
+    "captured_at": "2026-10-11T192525",
+    "source_url": "https://salido.com",
+    "source_type": "Website",
+    "file": "salido-2026-10-11T192525.png",
+    "bytes": 332859,
+    "capture": "playwright-local"
+  }
+]
